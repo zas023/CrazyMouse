@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/welcome_bg"
+    tools:context="com.zhouas.creazymoly.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crazy  Moly"
+        android:textSize="50dp"
+        android:layout_x="150dp"
+        android:layout_y="100dp"/>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/exit"
+       android:text="退出"
+       android:textSize="20dp"
+       android:textColor="@color/colorAccent"
+       style="?android:attr/buttonBarButtonStyle"
+       android:layout_x="500dp"
+       android:layout_y="250dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_easy"
+        android:text="简单模式"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_x="10dp"
+        android:layout_y="250dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_hard"
+        android:text="困难模式"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_x="150dp"
+        android:layout_y="250dp"/>
+
+    <CheckBox
+        android:text="静音"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="74dp"
+        android:layout_height="43dp"
+        android:layout_x="306dp"
+        android:layout_y="250dp"
+        android:id="@+id/cb_music" />
+
+    <TextView
+        android:text="最高成就："
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_height="31dp"
+        android:layout_x="47dp"
+        android:layout_y="204dp"
+        android:id="@+id/goal" />
+</AbsoluteLayout>

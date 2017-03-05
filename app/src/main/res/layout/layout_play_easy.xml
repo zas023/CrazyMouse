@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/play_bg"
+    android:id="@+id/easyLayout"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/mouse"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mouse"/>
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/boom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hit"/>
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/hunter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/hunter"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="剩余时间为："
+        android:id="@+id/time"
+        android:textSize="25dp"
+        android:textColor="#FF0000"/>
+</LinearLayout>
